@@ -4,8 +4,9 @@ import logging
 from tqdm import tqdm
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton
+from .config import API_TOKEN
 
-API_TOKEN = '2077928296:AAF8eOqCbM6wiESf-HxO6OOOJPaYrQ4rZ1s'
+
 logging.basicConfig(level=logging.INFO)
 bot = Bot(API_TOKEN)
 dp = Dispatcher(bot)
